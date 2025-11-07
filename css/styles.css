@@ -58,6 +58,12 @@ h6 {
   --tx-size-medium: 1.6rem;
 }
 
+.block__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button {
   border-radius: 5rem;
   padding: 1rem 3rem;
@@ -284,9 +290,9 @@ h6 {
 }
 
 .command__item {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   flex-direction: column;
 }
 
@@ -322,9 +328,9 @@ h6 {
 }
 
 .assembly__wrap {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   flex-direction: column;
 }
 
