@@ -1,3 +1,4 @@
+const modal = () => {
 const modalWindow = document.querySelector(".modal");
 const buttonModal = document.querySelector(".modal__button");
 const closeModal = document.querySelector(".modal__close");
@@ -17,7 +18,7 @@ modalWindow.addEventListener("click", (e) => {
   if (!isModal) {
     modalWindow.style.display = "none";
   }
-  body.classList.remove("noscroll");
+
 });
 
 closeModal.addEventListener("click", () => {
@@ -25,3 +26,6 @@ closeModal.addEventListener("click", () => {
 });
 
 //inline styles - те которые мы добавляем в теге html элемента, пример у нас в buttonModal
+
+}
+modal()
